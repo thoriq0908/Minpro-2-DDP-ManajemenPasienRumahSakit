@@ -129,8 +129,61 @@ di function ini dimulai dengan loop print dan menu pilihan 1/2, jika input 1 mak
 lalu diakhir program memanggil funtion menu utama yang menggunakan try except yang berguna jika user input CTRL + C, output tidak error, tetapi print "Program dihentikan oleh ai".
 <br>
 
-
-
+### Output
+<img width="960" height="600" alt="Screenshot 2026-10-06 225809" src="https://github.com/user-attachments/assets/c85ace66-09cc-420d-ab13-99d8913dce19" /> <br>
+Tampilan awal program dan tes conditional statement serta bentuk password yang menggunakan pwinput. <br>
+<br>
+**Menu Admin:** <br>
+<img width="276" height="197" alt="Screenshot 2026-10-06 230126" src="https://github.com/user-attachments/assets/03dc8808-696c-4fb2-ba5c-a46a6f2aeb66" /> <br>
+tampilan awal menu admin. <br>
+<br>
+<img width="359" height="290" alt="Screenshot 2026-10-06 230426" src="https://github.com/user-attachments/assets/965b099d-3e3e-4e45-adfc-85a7b97651fb" /> <br>
+contoh tambah data dan penerapan conditional statement. <br>
+<br>
+<img width="289" height="228" alt="Screenshot 2026-10-06 230654" src="https://github.com/user-attachments/assets/4642d0f5-9f13-47b3-b5fe-5c86ec695771" /> <br>
+contoh tampilkan data dan bentuk dari tabel yang menggunakan Library Prettytable. <br>
+<br>
+<img width="355" height="290" alt="Screenshot 2026-10-06 230922" src="https://github.com/user-attachments/assets/9195de82-ec9b-475c-93e9-d16639ecf33c" /> <br>
+contoh ubah data dan kondisi ketika no.rm yang diinput tidak ada pada data_pasien. <br>
+<br>
+<img width="400" height="317" alt="image" src="https://github.com/user-attachments/assets/6407ef5f-7027-4ec9-a948-45166326062c" /> <br>
+contoh hapus data dan kondisi ketika no.rm yang ingin dihapus tidak ada dan update tampilaan data atau(read) yang datanya sudah terhapus. <br>
+<br>
+<br>
+**Menu Pasien** <br>
+<img width="262" height="265" alt="image" src="https://github.com/user-attachments/assets/d4157498-b878-4a0a-ae87-73c39b0f4eb4" /> <br>
+output tampilan menu pasien dan percobaan input selain 1-4(kosong). <br>
+<br>
+<img width="326" height="182" alt="image" src="https://github.com/user-attachments/assets/2da88774-cf42-4e4d-be83-d4060c8fa0b6" /> <br>
+output menu pilihan 1 yaitu tambah data, dan penerapan conditional statement.<br>
+<br>
+<img width="274" height="131" alt="image" src="https://github.com/user-attachments/assets/4392029b-17ac-43e7-8439-d5f2c56741c5" /> <br>
+output menu pilihan 2 yaitu tampilkan data, menggunakan library pretty table.<br>
+<br>
+<img width="362" height="276" alt="image" src="https://github.com/user-attachments/assets/b2191e8f-fcc4-4489-beda-2f14217c7e7a" /> <br>
+output menu pilihan 3 yaitu ubah data, menggunakan conditional statement dan bukti pada tampilan data yang berubah.<br>
+<br>
+<br>
+<img width="301" height="242" alt="Screenshot 2026-10-06 232633" src="https://github.com/user-attachments/assets/45c4440b-f3e7-4e41-8881-a84c4dc6800a" /> <br>
+contoh output ketika no,rm sudah terdapat di dictionary data_pasien sehingga ketika user/pasien ingin menginput no.rm tersebut tidak bisa.<br>
+<br>
+<BR>
+<BR>
+## Penjelasan penerapan nilai tambah
+<img width="386" height="154" alt="Screenshot 2026-10-06 205424" src="https://github.com/user-attachments/assets/9920a26e-1c72-43a1-ab13-9eeaf63cf4be" /><br>
+**Library:** Nilai tambah yang pertama yaitu terdapat pada penerapan library yang minimal 3: <br>
+1. pwinput: penerapan pada input password(menjadikan input tersensor) <br>
+2. Prettytable: penerapan pada tampilan data(membuat tampilan data lebih rapi dan nyaman dilihat) <br>
+3. Os: penerapan pada terminal(menjadikan file saat di run bersih pada terminal) <br>
+<br>
+<br>
+try except 1: <br>
+<img width="317" height="110" alt="Screenshot 2026-10-06 233446" src="https://github.com/user-attachments/assets/26dd9bd6-44bb-43d6-a13f-6bb4823991d8" /> <br>
+try except 2: <br>
+<img width="302" height="64" alt="Screenshot 2026-10-06 233455" src="https://github.com/user-attachments/assets/81d468ad-46c4-4f2a-9ee1-f962530f7b0d" /> <br>
+**Error Handling:** Nilai tambah yang kedua berupa Error Handling yang menggunakan try except:<br>
+try except 1. : try except disini bermanfaat sebagai pengecek inputan user, yaitu ketika user input selain angka(int) program akan pergi ke except akan mengeluarkan print "input harus berupa angka" dan program kembali looping ke input. <br>
+try except 2. :  try except disini berguna sebagai penanganan output error, yaitu ketika user melakukan penghentian paksa program dengan menginput CTRL + C, maka program berhenti dengan output print "program dihentikan oleh pengguna".
 
 
 
