@@ -181,6 +181,7 @@ try except 1: <br>
 <img width="317" height="110" alt="Screenshot 2026-10-06 233446" src="https://github.com/user-attachments/assets/26dd9bd6-44bb-43d6-a13f-6bb4823991d8" /> <br>
 try except 2: <br>
 <img width="302" height="64" alt="Screenshot 2026-10-06 233455" src="https://github.com/user-attachments/assets/81d468ad-46c4-4f2a-9ee1-f962530f7b0d" /> <br>
+
 **Error Handling:** Nilai tambah yang kedua berupa Error Handling yang menggunakan try except:<br>
 try except 1. : try except disini bermanfaat sebagai pengecek inputan user, yaitu ketika user input selain angka(int) program akan pergi ke except akan mengeluarkan print "input harus berupa angka" dan program kembali looping ke input. <br>
 try except 2. :  try except disini berguna sebagai penanganan output error, yaitu ketika user melakukan penghentian paksa program dengan menginput CTRL + C, maka program berhenti dengan output print "program dihentikan oleh pengguna".
