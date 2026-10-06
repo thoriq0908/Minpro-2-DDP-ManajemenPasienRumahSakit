@@ -1,13 +1,14 @@
 <div align="center">
 
 <h1 id="readme-top">SISTEM PENGELOLAAN DATA PASIEN OPNAME DI RUMAH SAKIT</h1>
-<h3 align="center"> Program ini dibuat untuk mengelola data pasien opname rumah sakit, dengan dua peran: admin (bisa CRUD semua data) dan pasien (hanya bisa mengelola data miliknya sendiri(CRU).</h3>
+<h3 align="center"> Program ini merupakan pengembangan dan penyempurnaan dari program dengan penambahan beberapa method,fungsi,sistem yang membuat program lebih dapat digunakan. </h3>
 
   <p align="center">
     NAMA: Muhammad Thoriq Kamil | NIM: 047 | KELAS: B
     <br />
-
-
+<div align= "left">
+<br>
+  
 ## Deskripsi singkat Program
 
 Program ini dibuat untuk mengelola data pasien opname rumah sakit, dengan dua peran: admin (bisa CRUD semua data) dan pasien (hanya bisa mengelola data miliknya sendiri(CRU). Pengguna harus login terlebih dahulu dengan username dan password. Setelah login, menu yang tampil bergantung pada role:
@@ -25,45 +26,20 @@ Data pasien yang disimpan: **nomor rekam medis (RM), nama, umur, dan ruangan**.
 - **Conditional statement**: validasi input angka, input kosong, nomor RM duplikat, pilihan menu
 - **Library**: `pwinput` (password tersamar saat diketik), `prettytable` (tampilan tabel), `os` (membersihkan layar)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+
+## Flowchart dan penjelasan alur
+
+<img width="3614" height="2503" alt="FLOWCHART MINPRO 2 THORIQ" src="https://github.com/user-attachments/assets/fa006017-e723-460f-b135-2b454927d776" />
+<br>
+Program dimulai dengan input pilihan 1/2:
+<br>
+### 1. untuk login  <br>
+**2. untuk keluar** <br>
+jika input = 2, program berakhir<br>
+jika input = 1, program berlanjut untuk meminta input berupa username dan password
 
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
